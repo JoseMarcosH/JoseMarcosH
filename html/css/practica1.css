@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(245, 175, 175);
+    min-height: 700px;
+}
+#caja1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(130, 154, 233);
+}
+#caja1 .item:first-child{
+    width: 10%;
+    height: 40px;
+    background-color: red;
+    float: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 5px;
+}
+#caja1 .item:last-child{
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    float: left;
+    margin-left: 60%;
+    margin-top: 5px;
+}
+/*--------------------------------------------------------*/
+#caja2{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+#caja2 .item2{
+    width: 50%;
+    height: 250px;
+    background-color: red;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    float: left;
+}
+/*-------------------------------------------------------*/
+#caja3{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(82, 15, 82);
+}
+#caja3 .item3:first-child{
+    margin-left: 15%;
+    margin-right: 2%;
+}
+#caja3 .item3:last-child{
+    margin-left: 2%;
+    margin-right: 13%;
+}
+#caja3 .item3{
+    width: 15%;
+    height: 230px;
+    background-color: rgb(39, 17, 17);
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    margin-top: 35px;
+    border-radius: 20px;
+    box-shadow: 1px 9px 0px 2px rgba(71, 57, 57, 0.75);
+}
+/*-------------------------------------------------------*/
+#caja4{
+    width: 100%;
+    height: 300px;
+    background-color: cornsilk;
+}
+#caja4 .item4:first-child{
+    width: 50%;
+    height: 298px;
+    background-color: rgb(77, 75, 75);
+    float: left;
+    margin-top: 00.5px;
+}
+#caja4 .item4:last-child{
+    width: 50%;
+    height: 298px;
+    background-color: rgb(39, 17, 17);
+    float: left;
+    margin-top: 0.5px;
+}
+/*----------------------------------------------*/
+#caja5{
+    width: 100%;
+    height: 300px;
+    background-color: honeydew;
+}
+#caja5 .item5:first-child{
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(82, 15, 82);
+    float: left;
+}
+#caja5 .item5:nth-child(2){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+}
+#caja5 .item5:nth-child(3){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(82, 15, 82);
+    float: left;
+    margin-left: 10%;
+}
+#caja5 .item5:nth-child(4){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-left: 0%;
+}
+#caja5 .item5:nth-child(5){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(82, 15, 82);
+    float: left;
+    margin-left: 10%;
+}
+#caja5 .item5:nth-child(6){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-left: 0%;
+}
+#caja5 .item5:nth-child(7){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(82, 15, 82);
+    float: left;
+    margin-left: 10%;
+}
+#caja5 .item5:nth-child(8){
+    width: 8.75%;
+    height: 300px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-left: 0%;
+}
+/*------------------------------------------------------*/
+#caja6{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(39, 17, 17);
+}
+/*-------------------------------------------------------*/
+#caja7{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(77, 75, 75);
+}
+#caja7 .item6:first-child{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#caja7 .item6:nth-child(2){
+    width: 20%;
+    height: 100px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+#caja7 .item6:nth-child(3){
+    width: 14.5%;
+    height: 100px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-top: 60px;
+    margin-left: 43%;
+    margin-right: 20%;
+    transform: rotate(50deg);
+}
+#caja7 .item6:nth-child(4){
+    width: 20%;
+    height: 100px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+#caja7 .item6:last-child{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(24, 23, 24);
+    float: left;
+    margin-top: 60px;
+    margin-left: 45%;
+}
