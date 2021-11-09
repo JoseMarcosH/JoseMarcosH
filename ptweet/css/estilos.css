@@ -1,23 +1,85 @@
+:root{
+    --p-amarillo:#f3d13f;
+    --p-morado:#c516c5;
+    --p-text:#0e0f0f;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
-main{
+#login{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-main .col{
+#login .col{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     height: 100vh;
 }
-main .col:first-child{
-    flex: 2;
+#login .col:first-child{
+    flex: 2; 
     background-image: url(../img/fondo.png);
     background-size: 100% 100%; 
     background-position: -10% 0;
+}
+#login .col:last-child{
+    /*este pading es como las manecillas del reloj*/
+    padding: 100px 50px 0px 50px;
+    /*background-image:url(../img/fondopeluche.png);
+    background-size: 150% 100%;*/
+}
+#login .col:last-child h1{
+    font-size: 2rem;
+    text-align:right;
+} 
+#login .col:last-child h1 img{
+    width: 300px;
+}
+#login .col:last-child h2{
+    font-size: 1.4rem;
+    text-align:right;
+} 
+fieldset{
+    padding:5px;
+    padding-top:20px;
+    border:none;
+}
+label{
+    font-weight: lighter;
+   
+}
+fieldset input{
+    padding:5px;
+    height: 30px;
+    outline-color: var(--p-amarillo);
+    border:1px solid var(--p-morado);
+    display: block;
+    width: 100%;
+  
+}
+button{
+    padding:5px 10px 5px 10px;
+    background-color: var(--p-morado);
+    background-image:url(../img/peluchemorado.jpg);
+    background-size: 100% 100%;
+    border:2px solid var(--p-amarillo);
+    border-radius:10px;
+    color: var(--p-amarillo);
+    height:40px;
+    min-width:150px;
+    font-size:1.2rem;
+    transition:0.5s ease-out all;
+}
+button:hover{
+    background-image:url(../img/plucheazul.jpg);
+    color: var(--p-amarillo);
+    cursor:pointer;
+}
+#btnAceptar{
+    background-image: url(../img/peluchemorado.jpg);
+    border-radius: 5px;
 }
