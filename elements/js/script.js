@@ -11,13 +11,25 @@ window.onload = ()=>{
             arrayElem=json.elements;
             let todo="";
             arrayElem.forEach(element => {
-                todo+=`<li class="hydrogen" data-="1" data-sim="H" 
-                data-name="Hidrogeno"
+                todo+=`<li id="${element.name}" class="hydrogen" data-id="${arrayElem.indexOf(element)+1}" data-sim="${element.symbol}" 
+                data-name="${element.symbol}"
                 data-descr="el elemento escencial">
-                <abbr title="Hydrogen">${element.symbol}</abbr>
+                
+                <abbr title="${element.name}">${element.symbol}</abbr>
             </li>`
             });
             document.getElementsByClassName('periodic-table')[0].innerHTML=todo;
+            arrayElem.forEach(element => {
+                todo+=`<li id="${element.name}" 
+                class="hydrogen" 
+                data-id="${arrayElem.indexOf(element)+1}" 
+                data-sim="${element.symbol}" 
+                data-name="Hidrogeno"
+                data-descr="el elemento escencial">
+                
+                <abbr title="${element.name}">${element.symbol}</abbr>
+            </li>`
+            });
         }
     }
     xobj.send(null);
